@@ -33,10 +33,8 @@ class User extends Authenticatable implements LaratrustUser
 
     const UPLOADS = 'uploads/users';
 
-    protected $appends = [
-        'image_path'
-    ];
-
+    protected $appends = ['image_path'];
+    
     public function getImagePathAttribute()
     {
         return asset('uploads/users/'.$this->image);

@@ -112,7 +112,7 @@
 
                             <div class="nav-tabs-custom">
                                 @php
-                                    $models = ['users'/*, 'categories', 'products', 'clients', 'orders'*/];
+                                    $models = ['users', 'categories', 'products', 'clients', 'orders'];
                                     $actions = ['create', 'read', 'update', 'delete'];
                                 @endphp
                                 <ul class="nav nav-tabs">

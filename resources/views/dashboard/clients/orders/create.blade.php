@@ -162,7 +162,7 @@
 
                                                         @endforeach
                                                     </ul>
-                                                    <h4>@lang('site.total') : <span >{{$order->total_price}}</span></h4>
+                                                    <h4>@lang('site.total') : <span>{{$order->total_price}}</span></h4>
 
 
                                                 </div><!-- end of panel body -->

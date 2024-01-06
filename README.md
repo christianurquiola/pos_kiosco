@@ -1,66 +1,80 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## Table of Contents
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Packages Used](#packages-used)
+- [Installation](#installation)
+- [Usage](#usage)
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Features
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **Inventory Management:** Maintain a comprehensive catalog with ease, keeping track of stock levels and receiving low-stock alerts for proactive replenishment.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Sales Tracking:** Capture and record detailed sales transactions, providing itemized receipts and a thorough order history for comprehensive insights.
 
-## Learning Laravel
+- **User Authentication:** Ensure data security with robust user authentication, allowing you to control access and maintain the integrity of your POS system.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **Reporting and Analytics:** Gain valuable business insights with our reporting and analytics tools, offering a holistic view of your sales trends and overall performance.
+  
+- **Admins and Roles:**
+  - Create and manage admin users.
+  - Assign roles to admin users for different levels of access and permissions.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **Categories:**
+  - Organize products by categories for efficient inventory management.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Products:**
+  - Add, update, and remove products from the inventory.
+  - Manage stock levels for each product to ensure accurate tracking.
 
-## Laravel Sponsors
+- **Clients:**
+  - Manage client information for streamlined order processing.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- **Orders:**
+  - Create orders for clients.
+  - View order history for clients.
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## Technologies Used
 
-## Contributing
+- **Laravel:** A PHP web application framework providing a foundation for building robust and scalable applications.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **PHP:** The server-side scripting language empowering dynamic web page development.
 
-## Code of Conduct
+- **MySQL:** A relational database management system offering efficient data storage.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- **HTML/CSS:** Standard markup and styling languages for creating an intuitive and user-friendly interface.
 
-## Security Vulnerabilities
+- **JavaScript:** A scripting language enhancing interactivity and dynamic behavior on the frontend.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- **jQuery:** A fast and feature-rich JavaScript library simplifying client-side scripting and DOM manipulation.
 
-## License
+- **Bootstrap or Tailwind CSS:** CSS frameworks ensuring a visually appealing and responsive design.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- **Composer:** A PHP dependency manager streamlining the installation and management of project dependencies.
+
+## Packages Used
+
+- **Laravel Breeze:**
+  Leveraging Laravel Breeze for handling the authentication process, ensuring a secure and seamless user experience.
+
+- **Mcmare:**
+  Mcmare for localization, making it easy to adapt the system for different languages and regions.
+
+- **Spatie Translation:**
+  Spatie Translation for smooth database translations, allowing for multilingual content support in your application.
+
+- **Laratrust:**
+  Laratrust package that adds roles, permissions, and teams authorization to Laravel applications, providing a robust authorization system.
+
+## Installation
+
+Clone the repository, follow the provided installation instructions,
+and you'll have our Laravel POS System up and running in no time. Streamlined setup ensures a quick and hassle-free deployment.
+
+## Usage
+
+Log in, manage your inventory effortlessly, process sales transactions seamlessly, and leverage the reporting tools to make informed business decisions. Our user-friendly interface ensures an intuitive experience for both administrators and staff.
+
+
